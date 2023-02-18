@@ -1,0 +1,29 @@
+a:link {
+    color: #5090D3;
+}
+
+a:hover {
+    color: #13385f;
+}
+
+a.more {
+    background-color: #c2185b;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 200px;
+}
+
+a.more:hover {
+    background-color: #13385f;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}

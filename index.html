@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/destinations.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/ideas.css" rel="stylesheet">
+    <link href="css/img.css" rel="stylesheet">
+    <link href="css/infos.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/links.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/newsletter.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <link href="css/titles.css" rel="stylesheet">
+    <title>Space Odyssey - la première compagnie de voyage interplanétaire</title>
+</head>
+
+<body>
+    <header id="top">
+        <div>
+            <h1>
+                Space Odyssey
+            </h1>
+            <p id="slogan">
+                Parcourez l'univers avec Space Odyssey,<br>la première compagnie de voyage interplanétaire !
+            </p>
+        </div>
+        <nav id="main-ul">
+            <ul>
+                <li>
+                    <a title="Destinations" href="#">Nos destinations</a>
+                </li>
+                <li>
+                    <a title="Infos trafic" href="#">Infos trafic</a>
+                </li>
+                <li>
+                    <a title="Réservations" href="#">Réservations</a>
+                </li>
+                <li>
+                    <a title="Tourisme interplanétaire" href="#">Tourisme interplanétaire</a>
+                </li>
+                <li>
+                    <a title="Business" href="#">Business</a>
+                </li>
+            </ul>
+        </nav>
+        <nav id="user-ul">
+            <ul>
+                <li>
+                    <a title="Se connecter" href="#">Se connecter</a>
+                </li>
+                <li>
+                    <a title="Créer un compte" href="#">Créer un compte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main-container">
+        <main>
+            <section id="search">
+                <h2>Réservez votre prochain voyage</h2>
+                <form action="/" method="POST">
+                    <div>
+                        <label for="depart">Jour de départ</label>
+                        <input id="depart" type="date" name="depart">
+                    </div>
+                    <div>
+                        <label for="from">Depuis</label>
+                        <select name="from" id="from">
+                            <option value="jupiter">Jupiter</option>
+                            <option value="mars">Mars</option>
+                            <option value="mercure">Mercure</option>
+                            <option value="neptune">Neptune</option>
+                            <option value="saturne">Saturne</option>
+                            <option value="uranus">Uranus</option>
+                            <option value="terre">Terre</option>
+                            <option value="venus">Vénus</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="to">Vers</label>
+                        <select name="to" id="to">
+                            <option value="jupiter">Jupiter</option>
+                            <option value="mars">Mars</option>
+                            <option value="mercure">Mercure</option>
+                            <option value="neptune">Neptune</option>
+                            <option value="saturne">Saturne</option>
+                            <option value="uranus">Uranus</option>
+                            <option value="terre">Terre</option>
+                            <option value="venus">Vénus</option>
+                        </select>
+                    </div>
+                    <button type="submit">Rechercher</button>
+                </form>
+            </section>
+            <section id="ideas">
+                <h2>Idées de voyages</h2>
+                <div>
+                    <article>
+                        <header>
+                            <h2>Destination du mois : <strong>la Lune</strong></h2>
+                            <img src="images/lune.jpg" alt="Lune">
+                        </header>
+                        <div>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium exercitationem
+                                autem,
+                                beatae
+                                veniam cumque, suscipit quia eligendi itaque placeat officiis molestias explicabo
+                                consequuntur
+                                quibusdam? Sapiente labore inventore recusandae delectus.
+                            </p>
+                            <a class="more" href="#" title="Lune">En savoir plus sur la Lune</a>
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>Offre spéciale vers <strong>Mars</strong></h2>
+                            <img src="images/mars.jpg" alt="Mars">
+                        </header>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium exercitationem
+                                autem,
+                                beatae
+                                veniam cumque, suscipit quia eligendi itaque placeat officiis molestias explicabo
+                                consequuntur
+                                quibusdam? Sapiente labore inventore recusandae delectus.
+                            </p>
+                            <a class="more" href="#" title="Mars">En savoir plus sur Mars</a>
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>Road Trip à travers les <strong>Astéroïdes</strong></h2>
+                            <img src="images/asteroides.jpg" alt="Astéroïdes">
+                        </header>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium exercitationem
+                                autem,
+                                beatae
+                                veniam cumque, suscipit quia eligendi itaque placeat officiis molestias explicabo
+                                consequuntur
+                                quibusdam? Sapiente labore inventore recusandae delectus.
+                            </p>
+                            <a class="more" href="#" title="Astéroïdes">En savoir plus sur les Astéroïdes</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="infos">
+                <h2>Préparez votre voyage !</h2>
+                <div>
+                    <section>
+                        <h3>Les 8 planètes du Système Solaire</h3>
+                        <figure>
+                            <img src="images/carte-du-systeme-solaire.png" alt="Carte du Système Solaire">
+                            <figcaption>
+                                Carte du Système Solaire
+                            </figcaption>
+                        </figure>
+                        <table>
+                            <caption>Diamètre en km des planètes du Système Solaire</caption>
+                            <thead>
+                                <tr>
+                                    <th>Planète</th>
+                                    <th><strong>Diamètre en km</strong></th>
+                                    <th><strong>Taille par rapport à la Terre</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mercure</td>
+                                    <td>4 879km</td>
+                                    <td>2,6 fois plus petite</td>
+                                </tr>
+                                <tr>
+                                    <td>Vénus</td>
+                                    <td>12 104km</td>
+                                    <td>1,1 fois plus petite</td>
+                                </tr>
+                                <tr>
+                                    <td>Terre</td>
+                                    <td>12 742km</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>Mars</td>
+                                    <td>6 779km</td>
+                                    <td>1,9 fois plus petite</td>
+                                </tr>
+                                <tr>
+                                    <td>Jupiter</td>
+                                    <td>139 822km</td>
+                                    <td>11 fois plus grosse</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturne</td>
+                                    <td>116 464km</td>
+                                    <td>9,1 fois plus grosse</td>
+                                </tr>
+                                <tr>
+                                    <td>Uranus</td>
+                                    <td>50 724km</td>
+                                    <td>4 fois plus grosse</td>
+                                </tr>
+                                <tr>
+                                    <td>Neptune</td>
+                                    <td>49 244km</td>
+                                    <td>3,9 fois plus grosse</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a class="more" href="#" title="Tout savoir sur le Système Solaire">Tout savoir sur le Système
+                            Solaire</a>
+                    </section>
+                    <section>
+                        <h3>Infos pratiques</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quo quod debitis maxime modi
+                            assumenda nostrum ratione aspernatur aliquam molestiae, fuga, dicta perspiciatis facilis,
+                            non ut
+                            numquam? Iusto, est facilis.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem nemo asperiores
+                            facere.
+                            Nesciunt laborum aspernatur nam! Nostrum sed corporis, fugiat ab, sunt, qui culpa
+                            consectetur
+                            doloremque at quos commodi?
+                        </p>
+                        <a class="more" href="#" title="Plus d'infos">Plus d'infos</a>
+                    </section>
+                </div>
+            </section>
+            <section>
+                <h2>Votre check-list avant d'embarquer</h2>
+                <p>Les 3 points essentiels à vérifier avant d'embarquer sur Space Odyssey</p>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, cum. Omnis doloribus
+                        veniam
+                        mollitia? Et voluptate ullam consequatur, dignissimos fuga quo? Ea explicabo veniam eum
+                        rerum
+                        fugiat consectetur numquam tempora.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reprehenderit quaerat
+                        quibusdam
+                        qui dolorum minus repellendus id aspernatur, eos illum sint atque itaque modi
+                        perferendis
+                        fugit
+                        eaque culpa deleniti consequuntur!</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero doloremque veritatis
+                        dicta
+                        cupiditate maiores quas voluptas quisquam itaque aliquid, cumque commodi nemo odit
+                        dolore
+                        fugiat, minima laborum! Ipsam, placeat reiciendis?</li>
+                </ol>
+            </section>
+            <section id="news">
+                <h2>News</h2>
+                <div>
+                    <article>
+                        <header>
+                            <h3>Voyagez en famille avec notre nouvelle offre <em>Tout confort</em> !</h3>
+                            <img src="images/news-1.jpg"
+                                alt="Voyagez en famille avec notre nouvelle offre Tout confort !">
+                        </header>
+                        <div>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum voluptate, molestiae
+                                aliquam
+                                quas,
+                                provident unde, eius ab totam aspernatur accusantium omnis at magnam eum ducimus numquam
+                                eaque
+                                velit
+                                aliquid explicabo?
+                            </p>
+                            <a class="more" href="#" title="Plus d'infos">Plus d'infos</a>
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h3>Un long week-end sur la Lune !</h3>
+                            <img src="images/news-2.jpg" alt="Un long week-end sur la Lune">
+                        </header>
+                        <div>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic eaque natus nihil dolor
+                                illum,
+                                distinctio sit animi deleniti laboriosam asperiores illo quasi libero impedit odit
+                                dicta! Id
+                                officiis dolor maiores.
+                            </p>
+                            <a class="more" href="#" title="Plus d'infos">Plus d'infos</a>
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h3>Prochainement : départ vers Pluton !</h3>
+                            <img src="images/news-3.jpg" alt="Prochainement : départ vers Pluton !">
+                        </header>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda quisquam eligendi
+                                corporis
+                                reprehenderit, debitis consequatur totam excepturi obcaecati, delectus ratione quasi?
+                                Consequuntur
+                                maiores magnam at aperiam. Natus, tempora incidunt.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis cupiditate ducimus
+                                incidunt,
+                                maxime reiciendis voluptatibus facilis. Quia, veniam perspiciatis corrupti quo debitis
+                                impedit
+                                minima beatae est vitae eius ratione mollitia.
+                            </p>
+                            <a class="more" href="#" title="Plus d'infos">Plus d'infos</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="newsletter">
+                <h2>Inscrivez-vous à notre newsletter !</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quod minus mollitia adipisci,
+                    soluta
+                    ex
+                    perferendis sit, ipsam similique et dignissimos nemo aliquid! Laudantium culpa, beatae fuga odio
+                    nisi
+                    pariatur.
+                </p>
+                <form action="/" method="POST">
+                    <div>
+                        <label for="email">Votre adresse email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="optin">J'accepte de recevoir la newsletter de Space Odyssey</label>
+                        <input id="optin" type="checkbox" value="optin">
+                    </div>
+                    <button>S'inscrire</button>
+                </form>
+            </section>
+        </main>
+        <aside>
+            <section id="destinations">
+                <h2>
+                    Nos destinations au départ de la Terre
+                </h2>
+                <article>
+                    <h3>Voyage Terre / Vénus</h3>
+                    <p>Distance depuis la Terre : <span>41,40 Mkm</span></p>
+                    <a href="#" title="Vénus"><img src="images/venus.jpg" alt="Vénus"></a>
+                </article>
+                <article>
+                    <h3>Voyage Terre / Mars</h3>
+                    <p>Distance depuis la Terre : <span>78,34 Mkm</span></p>
+                    <a href="#" title="Mars"><img src="images/mars.jpg" alt="Mars"></a>
+                </article>
+                <article>
+                    <h3>Voyage Terre / Mercure</h3>
+                    <p>Distance depuis la Terre : <span>91,69 Mkm</span></p>
+                    <a href="#" title="Mercure"><img src="images/mercure.jpg" alt="Mercure"></a>
+                </article>
+
+                <article>
+                    <h3>Voyage Terre / Jupiter</h3>
+                    <p>Distance depuis la Terre : <span>628,73 Mkm</span></p>
+                    <a href="#" title="Jupiter"><img src="images/jupiter.jpg" alt="Jupiter"></a>
+                </article>
+                <article>
+                    <h3>Voyage Terre / Saturne</h3>
+                    <p>Distance depuis la Terre : <span>1275 Mkm</span></p>
+                    <a href="#" title="Saturne"><img src="images/saturne.jpg" alt="Saturne"></a>
+                </article>
+                <article>
+                    <h3>Voyage Terre / Uranus</h3>
+                    <p>Distance depuis la Terre : <span>2723,95 Mkm</span></p>
+                    <a href="#" title="Uranus"><img src="images/uranus.jpg" alt="Uranus"></a>
+                </article>
+                <article>
+                    <h3>Voyage Terre / Neptune</h3>
+                    <p>Distance depuis la Terre : <span>4351,40 Mkm</span></p>
+                    <a href="#" title="Neptune"><img src="images/neptune.jpg" alt="Neptune"></a>
+                </article>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a title="Destinations" href="#">Nos destinations</a>
+                    <ul>
+                        <li>
+                            <a href="#" title="Saturne">Terre / Saturne</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Vénus">Terre / Vénus</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Uranus">Terre / Uranus</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Mercure">Terre / Mercure</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Neptune">Neptune / Neptune</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Jupiter">Terre / Jupiter</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Mars">Terre / Mars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a title="Infos trafic" href="#">Infos trafic</a>
+                </li>
+                <li>
+                    <a title="Réservations" href="#">Réservations</a>
+                </li>
+                <li>
+                    <a title="Offres spéciales" href="#">Offres spéciales</a>
+                </li>
+                <li>
+                    <a title="Business" href="#">Business</a>
+                </li>
+                <li>
+                    <a title="Se connecter" href="#">Se connecter</a>
+                </li>
+                <li>
+                    <a title="Créer un compte" href="#">Créer un compte</a>
+                </li>
+            </ul>
+        </nav>
+        <p>
+            <span>Space Odyssey</span> | Tous droits réservés - 2023
+        </p>
+        <p>
+            Parcourez l'univers avec Space Odyssey, la première compagnie de voyage interplanétaire !
+        </p>
+    </footer>
+</body>
+
+</html>

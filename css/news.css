@@ -1,0 +1,20 @@
+section#news div {
+    display: flex;
+}
+
+section#news div article {
+    margin: 20px;
+}
+
+section#news article div {
+    display: block;
+}
+
+section#news img {
+    max-width: 100%;
+}
+
+section#news {
+    background-color: rgba(0, 30, 60, 0.8);
+    border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+aside {
+    padding: 20px;
+}
+
+aside {
+    border-left: 2px solid #c2185b;
+}
+
+aside img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}

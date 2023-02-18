@@ -1,0 +1,49 @@
+header#top {
+    background-image: url(../images/fusee.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 12em;
+}
+
+header#top div {
+    text-align: center;
+}
+
+header#top h1 {
+    font-size: 100px;
+    margin: 40px;
+}
+
+header#top ul {
+    list-style: none;
+    display: flex;
+}
+
+header#top p {
+    color: #c2185b;
+}
+
+header#top #slogan {
+    font-size: 1.3em;
+}
+
+header#top {
+    margin-bottom: 30px;
+}
+
+header#top nav {
+    display: flex;
+    justify-content: center;
+}
+
+header#top nav li {
+    padding: 10px;
+    background-color: rgba(0, 30, 60, 0.8);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+header#top nav li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}

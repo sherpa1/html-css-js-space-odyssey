@@ -1,0 +1,20 @@
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li ul {
+    display: block;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p span {
+    font-weight: bold;
+}

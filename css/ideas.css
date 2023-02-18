@@ -1,0 +1,19 @@
+#ideas article {
+    display: flex;
+    align-items: center;
+}
+
+#ideas article header {}
+
+#ideas article div {
+    padding: 60px;
+}
+
+#ideas p {
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#ideas article {
+    margin-bottom: 50px;
+}

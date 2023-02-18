@@ -1,0 +1,25 @@
+#search {
+    background-color: #c2185b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#search form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search button,
+#search select,
+#search input {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4em;
+    color: #13385f;
+}
+
+#search button {
+    color: white;
+    background-color: #13385f;
+}

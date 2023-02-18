@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 30, 60);
+    color: aliceblue;
+    background-image: url('../images/bg_space_seamless_1.png');
+}
+
+div#main-container {
+    display: flex;
+}
+
+div#main-container main {
+    width: 70%;
+}
+
+div#main-container section {
+    margin-bottom: 30px;
+    padding: 20px;
+}

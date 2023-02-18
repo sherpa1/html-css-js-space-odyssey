@@ -1,0 +1,13 @@
+section#destinations h3 {
+    font-weight: 300;
+    color: #c2185b;
+}
+
+section#destinations article:nth-child(odd) {
+    background-color: rgba(0, 30, 60, 0.8);
+}
+
+section#destinations article {
+    padding: 10px;
+    margin-bottom: 30px;
+}
