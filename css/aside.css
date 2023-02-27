@@ -10,3 +10,9 @@ aside img {
     max-width: 200px;
     margin-bottom: 10px;
 }
+
+div#main-container section#destinations,
+div#main-container section#destinations h2 {
+    padding-top: 0;
+    margin-top: 0;
+}

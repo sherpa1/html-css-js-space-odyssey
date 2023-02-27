@@ -19,3 +19,7 @@
     color: white;
     background-color: #13385f;
 }
+
+#newsletter form {
+    line-height: 3em;
+}

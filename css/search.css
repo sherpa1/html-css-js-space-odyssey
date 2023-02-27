@@ -1,3 +1,7 @@
+#search h2 {
+    text-align: center;
+}
+
 #search {
     background-color: #c2185b;
     padding: 10px;
@@ -22,4 +26,8 @@
 #search button {
     color: white;
     background-color: #13385f;
+}
+
+#search label {
+    padding-right: 1em;
 }

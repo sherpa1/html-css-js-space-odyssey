@@ -18,3 +18,11 @@ footer {
 footer p span {
     font-weight: bold;
 }
+
+footer nav ul ul li {
+    margin-top: 0.5em;
+}
+
+footer nav ul ul li a {
+    font-weight: 300;
+}

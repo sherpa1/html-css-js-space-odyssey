@@ -1,0 +1,17 @@
+ol li {
+    padding: 2em;
+    margin: 2em;
+    border: 2px solid #c2185b;
+    border-radius: 10px;
+}
+
+ol {
+    display: flex;
+    list-style-position: inside;
+}
+
+ol li::marker {
+    color: #c2185b;
+    font-size: 2em;
+    font-weight: 700;
+}

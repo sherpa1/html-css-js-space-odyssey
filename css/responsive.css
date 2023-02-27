@@ -1,0 +1,50 @@
+@media (max-width: 1250px) {
+
+
+    #ideas article div {
+        padding: 1em;
+    }
+
+    main img {
+        max-width: 20em;
+    }
+
+    div#main-container main {
+        width: 100%;
+    }
+
+
+
+    #ideas article,
+    section#news div,
+    #search form,
+    div#main-container,
+    footer ul,
+    ul,
+    ol,
+    #infos div,
+    nav {
+        flex-direction: column;
+    }
+
+    aside {
+        border: none;
+    }
+
+    ol,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    header#top h1 {
+        margin: 0;
+    }
+
+    header#top {
+        background-image: url(../images/fusee.png);
+        background-repeat: no-repeat;
+        background-size: 38%;
+        background-position-x: 13em;
+    }
+}

@@ -1,4 +1,5 @@
-a:link {
+a:link,
+a:visited {
     color: #5090D3;
 }
 
@@ -6,7 +7,8 @@ a:hover {
     color: #13385f;
 }
 
-a.more {
+a.more,
+a.more:visited {
     background-color: #c2185b;
     color: white;
     padding: 1em;
